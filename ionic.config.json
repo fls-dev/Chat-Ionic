@@ -2,7 +2,7 @@
   "name": "ChatIon",
   "integrations": {
     "capacitor": {
-      "appId": "exemple@ap.com",
+      "appId": "exemple@app.com",
       "appName": "ChatIon",
       "webDir": "dist",
       "bundledWebRuntime": false

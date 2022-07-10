@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'exemple@ap.com',
-  appName: 'Chat',
+  appId: 'com.example.app',
+  appName: 'ChatIon',
   webDir: 'dist',
   bundledWebRuntime: false
 };
