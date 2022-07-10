@@ -1,7 +1,12 @@
 {
-  "name": "myApp",
+  "name": "ChatIon",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "appId": "exemple@ap.com",
+      "appName": "ChatIon",
+      "webDir": "dist",
+      "bundledWebRuntime": false
+    }
   },
   "type": "vue"
 }
