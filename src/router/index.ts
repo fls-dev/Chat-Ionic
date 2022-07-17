@@ -20,16 +20,13 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Tab1Page.vue')
       },
       {
-        path: '/tab1/message',
-        component: () => import('@/components/MessegesChatList.vue'),
+        path: '/tab1/message/:id',
+        component: () => import('@/views/MessegesChatList.vue'),
+        props: true
       },
       {
         path: 'tab3',
         component: () => import('@/views/Tab3Page.vue')
-      },
-      {
-        path: 'message',
-        component: () => import('@/components/MessegesChatList.vue'),
       },
     ]
   }
